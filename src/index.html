@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&family=Special+Elite&display=swap" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/mediaQuerys.css" media="(max-width: 750px)">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    
+</head>
+<body>
+        <header class='header'>
+            <div class='header__logo'>
+                <img src="../assets/img/logo.jpg" alt="" />
+            </div>
+            <div class="header__menu">
+                <i class='bx bx-menu bx-lg' style='color:#ffffff'  ></i>
+            </div>
+            <nav class='header__nav'>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><p class="buttonsViewProyects">Proyectos</p></li>
+                    <li><p class="contact-us-desplegable">Contacto</p></li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="contact-us inactive-contac-Us">
+            <div class="contact-us-email">
+                <span class="checkViewEmail">Email
+                    <i class='bx bx-chevron-right ' style='color:#000000'  ></i>
+                </span>
+                <div class="email email-inactive">
+                    <span>yuniorpaezpabon@gmail.com</span>
+                </div>
+            </div>
+            <div class="contact-us-redes">
+                <span>Redes:</span>
+                <div class="container-redes">
+                    <a href=""><i class='bx bxl-linkedin bx-lg' style='color:#030303'  ></i></a>
+                    <a href="https://www.instagram.com/yuniorpaez_12/"><i class='bx bxl-instagram-alt bx-lg' style='color:#000000' ></i></a>
+                    <a href="https://github.com/GeovannyPaez"><i class='bx bxl-github bx-lg' style='color:#000000' ></i></a>
+                </div>
+            </div>
+        </aside>
+        <aside class="menu_mobile">
+                <ul class="menu-container">
+                    <li class="menu-container-item"><a href="#"><p class="item-home">Inicio</p></a></li>
+                    <li class="menu-container-item"><p class="item-proyect">Proyectos</p> </li>
+                    <li class="menu-container-item contact-us-mobile"><p>Contacto</p> 
+                        <ul class="aside-mobile-contactUs">
+                            <li class="email-mobile">
+                                Email  <div>
+                                    <i class='bx bx-chevron-right ' style='color:#ffffff'  ></i>
+                                </div>
+                                <span>yuniorpaezpabon@gmail.com</span>
+                            </li>
+                            <li class="redes-mobile">
+                                Redes:
+                                <div class="container-redes">
+                                    <a href=""><i class='bx bxl-linkedin bx-lg' style='color:#e7e7e7'  ></i></a>
+                                    <a href="https://www.instagram.com/yuniorpaez_12/"><i class='bx bxl-instagram-alt bx-lg' style='color:#e7e7e7' ></i></a>
+                                    <a href="https://github.com/GeovannyPaez"><i class='bx bxl-github bx-lg' style='color:#e7e7e7' ></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+        </aside>
+        <main class="">  
+            <section class="container-main">
+                <h1>Soy Geovanny Sneyder Paez</h1>
+                <div class="main-photo">
+                    <img src="/assets/img/Photo.jpeg" alt="Photo Profile">
+                </div>
+                <div class="main-description">
+                    <div>
+                        <p>Desarrollador <p id="resaltador"> Frontend </p> </p>
+                    </div>
+                    <div>
+                        <p>Y estudiante de <p id="resaltador">Ingenieria de Sistemas</p></p>
+                    </div>
+                    
+                </div>
+                <div class="main-button">
+                    <button class="button buttonsViewProyects">Ver Proyectos</button>
+                </div>
+            </section>
+            <section class="container-proyects inactive">
+                <div class="proyects-title">
+                    <h2>Proyectos</h2>
+                </div>
+                <div class="proyects-cards">
+                    <div class="cards-container">
+                        <div class="card-img">
+                            <img src="https://camo.githubusercontent.com/33d12b763361e8eb134db6b8660fbba18e5980d6ee97ccb8dd7963da3c8254d9/68747470733a2f2f692e6962622e636f2f70524b3646525a2f496d6167656e312e706e67" alt="imagen proyecto">
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-info--title">Market Place, Con API fake de Platzi</h3>
+                            <p class="card-info-description">Es una landing Page responsive, que está usando datos de referencia de una API fake que Platzi tiene desarrollada para hacer pruebas, lo cual se hace consumo de esta API y se representa de manera gráfica y diseñada los datos que esta API nos ofrece.</p>
+                            <div class="card-info-tecnologias">
+                                <div><p>HTML</p></div>
+                                <div><p>CSS</p></div>
+                                <div><p>JavaScript</p></div>
+                            </div>
+                            <div class="card-info--buttons"> 
+                                <a href="https://geovannypaez.github.io/Landing_Page-De-Market-Place/src/index.html" class="button-viewDemo">Ver Demo</a>
+                                <a href="https://github.com/GeovannyPaez/Landing_Page-De-Market-Place" class="button-viewRepo">Ver Repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container--technologies">
+                <h2 class="technologies-title subTitle">Tecnologias que Manejo</h2>
+                <div class="technologies-imgs">
+                    <div class="carousel container-carousel center-aling">
+                        <div class="carousel-item">
+                            <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="logo de react js">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://logospng.org/download/javascript/logo-javascript-256.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://logospng.org/download/git/git-256.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://logospng.org/download/bootstrap/bootstrap-256.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://logonoid.com/images/sass-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container-aboutMe">
+                <h2 class="aboutMe-title subTitle">Sobre Mí</h2>
+                <div class="aboutMe-description">
+                    <p>
+                        Hey, hola! Soy Geovanny Paez, Apasionado por la tecnología, me desempeño como desarrollador web frontend, creo proyectos en tecnologías como JavaScript moderno, CSS, HTML5, React Js etc... Además, me encuentro estudiando Ingeniería de Sistemas en la Universidad de Pamplona con el objetivo de crecer día a día profesionalmente. 
+                    </p>
+                    <button class="button">Ver CV</button>
+                </div>
+            </section>
+        </main>
+        <footer class="">
+            <div class="container-redes">
+                <a href=""><i class='bx bxl-linkedin bx-lg' style='color:#e7e7e7'  ></i></a>
+                <a href="https://www.instagram.com/yuniorpaez_12/"><i class='bx bxl-instagram-alt bx-lg' style='color:#e7e7e7' ></i></a>
+                <a href="https://github.com/GeovannyPaez"><i class='bx bxl-github bx-lg' style='color:#e7e7e7' ></i></a>
+            </div>
+            <p>® 2022 Copyright Geovanny Paez Pabon</p>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type= 'module'src="./js/main.mjs"></script>
+</body>
+</html>

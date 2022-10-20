@@ -1,0 +1,45 @@
+.header{
+    height: 60px;
+}
+.header__logo{
+    width:40px;
+    height: 40px;
+    margin-left: 40px;
+}
+.header__nav{
+    height: 60px;
+}
+.toggle-menu{
+    transform: translate(-100%);
+}
+.header__nav ul{
+    height: 60px;
+}
+
+@media (max-width: 700px) {
+    
+    .header__nav{
+        display: none;
+    }
+    .header__menu{
+        display: block;
+        cursor: pointer;
+    }
+    .menu_mobile{
+        display: block;
+    }
+    .container-main {
+        margin-top: 25px;
+    }
+    .container-main h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .main-photo{
+        margin-top: 0;
+    }
+    .container-proyects{
+        margin-top: 80px;
+    }
+}
