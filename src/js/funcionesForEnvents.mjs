@@ -48,3 +48,26 @@ const actiosItemsMenuMobile= (e)=>{
     }
 }
 export{checkViewEmail,viewAsideContactUs, ViewProyects, onHome, onToggleMenuMobile ,actiosItemsMenuMobile,onViewProyects}
+
+
+
+// const altura= 8;
+// const base= 6
+// const calcularArea= (base,altura)=>{
+//     return (base*altura)/2;
+// }
+// const area=calcularArea(base,altura)
+// console.log(area);
+
+//  const x= 100/2/3/5;
+// const xx= (100/2)/(3/5);
+// const xxx= (100/2/3)/5;
+// const xxxx= 100/(2/3/5);
+// console.log(x,xx,xxx,xxxx);
+
+const x= 2;
+const y= 3;
+
+
+const z = ((x-1)/(y-1) + 5)/((x+3)/(y+1)) + 8;
+console.log(z)

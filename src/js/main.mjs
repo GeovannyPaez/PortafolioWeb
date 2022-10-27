@@ -1,7 +1,7 @@
 import { viewAsideContactUs,checkViewEmail, onToggleMenuMobile, actiosItemsMenuMobile, onViewProyects } from "./funcionesForEnvents.mjs";
 import { locations } from "./navigation.mjs";
 
-
+// buttons
 const btnViewEmail= document.querySelector('.checkViewEmail');
 const buttonDeplearContactUs=document.querySelector('.contact-us-desplegable');
 const buttonsViewProyects= [...document.querySelectorAll('.buttonsViewProyects')]; 
