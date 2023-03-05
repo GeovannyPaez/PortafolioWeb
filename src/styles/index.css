@@ -82,7 +82,7 @@ body{
 }
 .header__nav {
     height: 80px;
-    width: 370px;
+    width: 380px;
     list-style: none;
     margin-left: 30px;
     color: var(--color-text);
