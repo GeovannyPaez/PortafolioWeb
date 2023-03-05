@@ -6,8 +6,8 @@
     --color-text-secundary:#353535;
     --color-background-section:#C6C6C6;
     --negrita:#2FE085;
-    --font-one:'Roboto Mono', monospace;
-    --font-two: 'Special Elite', cursive;
+    --font-two:'Roboto Mono', monospace;
+    --font-one: 'Special Elite', cursive;
     --size-title : 2.2rem;
     --size-subTitle: 1.8rem;
     --size--parrafo: 1.6rem;
@@ -98,13 +98,15 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
+    gap: 15px;
     
 }
 .header__nav ul li{
-    padding-left:  15px;
+    /* padding-left:  15px; */
     border-radius: 5px;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
+    padding: 0;
     
 }
 .header__nav ul li:hover a,.header__nav ul li:hover p {
@@ -123,6 +125,7 @@ body{
     font-family: var(--font-two);
     font-size: var(--size--parrafo);
     height: 40px;
+    /* line-height: 60px; */
     
 }
 .header__nav ul li p{
@@ -458,7 +461,7 @@ body{
 }
 .cards-container{
     max-width: 400px;
-    height: 720px;
+    height: 750px;
     background-color: var(--color-background-section);
     border-radius: 10px;
     box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
@@ -528,7 +531,8 @@ body{
     transform: scale(1.2);
 }
 .card-info-tecnologias div p{
-    padding-top: 4px;
+    /* padding-top: 4px; */
+
 }
 
 .card-info--buttons{
@@ -536,7 +540,7 @@ body{
     flex-direction: column;
 }
 .card-info--buttons a{
-    padding-top: 4px;
+    /* padding-top: 4px; */
     width: 100%;
     font-size: 1.3rem;
     font-family: var(--font-two);

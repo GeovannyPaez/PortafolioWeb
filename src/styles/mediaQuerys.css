@@ -42,4 +42,7 @@
     .container-proyects{
         margin-top: 80px;
     }
+    .cards-container{
+        height: auto;
+    }
 }

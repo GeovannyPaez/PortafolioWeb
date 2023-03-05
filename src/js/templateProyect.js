@@ -23,8 +23,8 @@ const renderProyects= (proyects,container)=>{
                                         ${technologies}
                                     </div>
                                     <div class="card-info--buttons"> 
-                                        <a href="${proyect.demo}" class="button-viewDemo">View Demo</a>
-                                        <a href="${proyect.repository}" class="button-viewRepo">View Repository</a>
+                                        <a target="_blank" href="${proyect.demo}" class="button-viewDemo">View Demo</a>
+                                        <a target="_blank" href="${proyect.repository}" class="button-viewRepo">View Repository</a>
                                     </div>
                                 </div>
                             </div>

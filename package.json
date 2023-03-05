@@ -4,8 +4,11 @@
   "description": "Currriculun O CV",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "Geovanny Paez",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    
+  }
 }

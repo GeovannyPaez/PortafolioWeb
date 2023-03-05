@@ -30,6 +30,14 @@ const marketPlace= new Proyects ({
     demo:'https://practice-react-app-todo.netlify.app/#/',
     repository:'https://github.com/GeovannyPaez/intro_react-app-todo',
     img:'https://i.ibb.co/b72cVwp/Todos-demo.png'
+ });
+ const Yemicelemat = new Proyects({
+    title:"Yemicelemat",
+    technologies:["React Js","SASS","Webpack","Bootstrap","PWA"],
+    repository:"https://github.com/GeovannyPaez/yemicelemat-client",
+    demo:"https://yemicelemat.netlify.app/#/",
+    description:"This is a PWA of receipts made for the company yemicelemat, which said company offers the service of payment of bills, drafts, etc. in remote places. The function of the app is to allow users to make use of the services offered and the company keeps a complete accounting of the activity carried out through the Web application.",
+    img:"https://res.cloudinary.com/dad87vqdp/image/upload/v1677971854/Yemicelemat/Web_capture_4-3-2023_181024_yemicelemat.netlify.app_dvdm3l.jpg"
  })
-const proyects = [marketPlace,todoMachine]
+const proyects = [Yemicelemat,marketPlace,todoMachine]
 export {proyects};
